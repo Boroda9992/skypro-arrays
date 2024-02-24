@@ -25,7 +25,9 @@ public class Main {
         System.out.println("__________________________________________________________________________________________");
 
         int sum = 0;
-        for (int i : arr) sum = sum + i;
+        for (int i : arr){
+            sum = sum + i;
+        }
         System.out.println("Сумма трат за месяц составила " + sum + " рублей");
     }
 
@@ -57,9 +59,11 @@ public class Main {
         System.out.println("__________________________________________________________________________________________");
 
         int sum = 0;
-        for (int i : arr) sum = sum + i;
+        for (int i : arr){
+            sum = sum + i;
+        };
 
-        int average = sum / arr.length;
+        double average = (double) sum / arr.length;
         System.out.println("Средняя сумма трат за месяц составила " + average + " рублей");
     }
 
